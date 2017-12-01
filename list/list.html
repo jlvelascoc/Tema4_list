@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta name="author" content="Jose Luis Velasco Cañadas">
+  <title>List</title>
+</head>
+<body>
+<h1>List</h1>
+<h3>Person</h3>
+<label for="name">Name</label><input type="text" name="name" id="name"><br>
+<label for="sname">Surname</label><input type="text" name="sname" id="sname"><br>
+<label for="ssname">Second surname</label><input type="text" name="ssname" id="ssname"><br>
+<label for="dni">DNI</label><input type="text" name="dni" id="dni"><br>
+<label for="date">Birthdate</label><input type="text" name="date" id="date"><br>
+<label for="position">Position</label><input type="text" name="position" id="position"><br>
+
+<input type="button" value="Add" onclick="addElement()">
+<input type="button" value="Get" onclick="getElement()">
+<input type="button" value="Index of" onclick="getIndex()">
+<input type="button" value="Last index of" onclick="getLastIndex()">
+<input type="button" value="Remove" onclick="deleteElement()">
+<input type="button" value="Set" onclick="setElement()">
+
+<p id="list"></p> <!--Parrafo para mostrar la lista-->
+<p id="temp"></p> <!--Parrafo para mostrar elementos temporales como puede ser un elemento devuelto-->
+<p id="error"></p> <!--Parrafo para mostrar mensaje de error-->
+
+<script charset="utf-8" src="myscript.js"></script>
+<script charset="utf-8" src="pageFunctions.js"></script>
+</body>
+</html>
